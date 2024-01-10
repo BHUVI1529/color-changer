@@ -1,0 +1,29 @@
+    body {
+        padding-top: 450px;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color:lightblue;
+        transition: background-color 1s ease;
+      }
+  
+  button {
+    height: 100px;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color:darksalmon;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    transition: background-color 1s ease;
+  }
+  
+  button:hover {
+    background-color:chocolate;
+  }
